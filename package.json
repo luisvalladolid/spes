@@ -1,0 +1,31 @@
+{
+  "name": "sockets_coding",
+  "version": "1.0.0",
+  "description": "socket real time video ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "sockets",
+    "p5.js",
+    "node"
+  ],
+  "author": "Luis Valladolid",
+  "license": "ISC",
+  "dependencies": {
+    "aes256": "^1.0.4",
+    "assert": "^2.0.0",
+    "browser-hrtime": "^1.1.8",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "opencv4nodejs": "^5.6.0",
+    "socket.io": "^2.3.0",
+    "uniq": "^1.0.1",
+    "uniqid": "^5.2.0",
+    "usage": "^0.7.1",
+    "yarm": "^0.4.0"
+  }
+}
